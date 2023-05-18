@@ -10,6 +10,7 @@ FE: 전정훈(React), 남민영(React)
 BE: 김선민(Spring), 강준수(Spring), 이태경(Spring), 전재우(Spring)
 
 ![image](https://github.com/CloneCoding-5/Frontend/assets/128782170/004b14e8-765e-4a05-9933-4f1f3e94ea79)
+![지클론코딩 호스팅 페이지](https://github.com/CloneCoding-5/Frontend/assets/128782170/44799e88-2e36-4cf4-a36b-47870b38a59f)
 
 ## 구현 항목
 
@@ -32,13 +33,12 @@ Github Repo: https://github.com/CloneCoding-5/Backend
 
 Team Notion :5조 클론 프로젝트
 
-TroubleShooting : 트러블 슈팅
+## 트러블 슈팅
+https://www.notion.so/FE-d09ddf0fce1149afbb73ef8068d0d285
 
 ## 와이어프레임
 https://www.figma.com/file/1qN4b5HRhBagh3I1rVtDJ3/%ED%95%AD%ED%95%B4-5%EC%A1%B0-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9-AirBnb?type=design&node-id=0-1&t=b7V9nSAqkLtnCEKX-0
 
-## ERD
-스크린샷 2023-05-17 오후 8.00.02.png
 
 ## API 명세서
 https://www.notion.so/08c4718dd935446098cbee5d76cd5fc4?v=2e86df1546d847ecb474fa7b73ad8616
