@@ -664,7 +664,6 @@ const StCardPhotoImg = styled.img`
 const StCardTextBoxBtn = styled.div``;
 
 const StCardTextBoxP = styled.p`
-
   font-weight: 600;
   color: #878282;
 `;
