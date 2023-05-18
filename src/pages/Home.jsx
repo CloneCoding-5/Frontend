@@ -59,7 +59,7 @@ const Home = () => {
   const handleHostingClick = () => {
     closeStatusModal();
     // hosting 페이지 추가
-    // navigate("/");
+    navigate("/hosting");
   };
 
   // ^----- 로그아웃 함수 ----- //
