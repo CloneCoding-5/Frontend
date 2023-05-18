@@ -189,7 +189,6 @@ const Home = () => {
         break;
       case "캐슬":
         await getPostZotmf();
-        break;
       default:
         // setPostData([]);
         await getPostAll();
@@ -665,6 +664,7 @@ const StCardPhotoImg = styled.img`
 const StCardTextBoxBtn = styled.div``;
 
 const StCardTextBoxP = styled.p`
+
   font-weight: 600;
   color: #878282;
 `;
