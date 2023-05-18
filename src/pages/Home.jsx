@@ -189,6 +189,7 @@ const Home = () => {
         break;
       case "캐슬":
         await getPostZotmf();
+        break;
       default:
         // setPostData([]);
         await getPostAll();
