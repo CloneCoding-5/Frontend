@@ -72,6 +72,11 @@ const Home = () => {
     navigate("/");
   };
 
+  // ^----- 로고를 눌렀을 때 홈으로 돌아가는 함수 ----- //
+  const navHomeHandler = () => {
+    navigate("/");
+  };
+
   // ^----- 데이터를 가져오는 함수 ----- //
   // token 가져오기
   const token = Cookies.get("token");
@@ -211,7 +216,7 @@ const Home = () => {
     <StContainer>
       {/* ^---------- Navigate ---------- */}
       <StNavigate>
-        <StLogoBar>
+        <StLogoBar onClick={navHomeHandler}>
           <StLogoBarImg
             src={process.env.PUBLIC_URL + "/assets/svg/Airbnb_Logo.svg"}
             alt="Airbnb Logo"
@@ -441,7 +446,9 @@ const StNavigate = styled.div`
 `;
 
 // *----- Logo Bar ----- //
-const StLogoBar = styled.div``;
+const StLogoBar = styled.div`
+  cursor: pointer;
+`;
 
 const StLogoBarImg = styled.img`
   width: 7rem;
